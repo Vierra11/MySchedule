@@ -6,49 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySchedule</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        * {
-  box-sizing: border-box;
-}
-body {
-  background-image: url('background.jpg');
-  
-  background-attachment: fixed;
-  background-size: cover;
-}
-     
-h1{
-    background-color:#9933cc;
-    color: white;
-    text-align: center;
-    
-}
-table,td,th{
-   
-    align-content: center;
-    padding: 10px;
-    border-spacing: 10px;
-    border: none;
-}
-th{ 
-    background-color:#9933cc ;
-    color: white;
-   
-}
-td{
-    background-color: #33b5e5;
-    font-size:large ;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-table{
-    border:3px solid black;
-}
-
-    </style>
+    <script src="javascript.js"></script>
 </head>
 <body  >
+
+
     
     <h1>MY SCHEDULE</h1>
-    <table align="center">
+    <table >
         <tr>
             <th>TIME</th>
             <th>TASK</th>
@@ -89,7 +54,11 @@ table{
             <td>Sleep</td>
         </tr>
 
-       
     </table>
+    <script src="javascript.js"></script>
+    <div class="toggle" >
+        <input type="checkbox" id="toggle" />
+        <label for="toggle"></label>
+    </div>
 </body>
 </html>
