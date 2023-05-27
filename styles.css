@@ -19,16 +19,33 @@
     background-color: rgb(3, 5, 112);
  }
 
+ body.dark-theme #day{
+    display: none;
+ }
+
+ body.dark-theme #night {
+    display: inline;
+ }
+
+ #night{
+    display: none;
+ }
+
+ #day{
+    display:inline;
+ }
+
+
  h1 {
-     background-color: #9933cc;
-     color: white;
+     background-color: #9933cc ;
+     color:white ;
      text-align: center;
 
  }
 
  body.dark-theme h1{
-    background-color: rgb(156 , 147, 147);
-        color: #9933cc;
+    background-color:#9933cc ;
+        color: rgb(228, 209, 231);
         text-align: center;
  }
 
@@ -49,8 +66,8 @@
  }
 
  body.dark-theme th{
-    background-color: rgb(156, 147, 147);
-        color: #9933cc;
+    background-color: #9933cc;
+        color: rgb(228, 209, 231);
  }
 
  td {
@@ -60,10 +77,10 @@
  }
 
  body.dark-theme td{
-    background-color: rgb(0, 119, 255);
+    background-color: rgb(124, 175, 233);
         font-size: large;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: beige;
+        color: rgb(72, 72, 72);
     }
  
 table{

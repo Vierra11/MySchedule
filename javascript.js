@@ -1,3 +1,4 @@
+window.onload = function mode (){
 const toggle = document.getElementById('toggle');
 const body = document.body;
 
@@ -6,7 +7,11 @@ toggle.addEventListener('input', (e) => {
 	
 	if(isChecked) {
 		body.classList.add('dark-theme');
-	} else {
+			
+	} 
+	else {
 		body.classList.remove('dark-theme');
+		
 	}
 });
+}
